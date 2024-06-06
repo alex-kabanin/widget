@@ -11,7 +11,7 @@ body {
 	height: 68px;
 	border-radius: 50%;
 	background: #FF9900;
-	animation: animateWidget 3.5s ease infinite;
+	animation: animateWidget 2.5s ease infinite;
 	transition: background .15s ease-in-out;
 	cursor: pointer;
 }
