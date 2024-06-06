@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 100px;
+}
+
+.widget {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	background: #FF9900;
+	animation: animateWidget 3.5s ease infinite;
+	transition: background .15s ease-in-out;
+	cursor: pointer;
+}
+
+
+@keyframes animateWidget {
+    0%,100% {
+        box-shadow: 0 0 0 #FE9901
+    }
+
+    50% {
+        box-shadow: 0 0 14px #FE9901
+    }
+}
