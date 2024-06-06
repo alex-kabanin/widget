@@ -17,6 +17,10 @@ body {
 	color: #fff;
 }
 
+.widget__img path {
+  fill: currentColor;
+}
+
 
 @keyframes animateWidget {
     0%,100% {
